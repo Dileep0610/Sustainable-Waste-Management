@@ -1,149 +1,294 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
-  
-  <h1 align="center">Sustainable Waste Management AI</h1>
+  <img src="https://via.placeholder.com/1200x300/10b981/ffffff?text=Sustainable+Waste+Management+Assistant" alt="Project Banner">
 
-  <p align="center">
-    A full-stack AI-powered sustainable waste management web application that identifies waste types and provides eco-friendly disposal instructions.
-    <br />
-    <br />
-    <a href="#features">Features</a>
-    ·
-    <a href="#tech-stack">Tech Stack</a>
-    ·
-    <a href="#setup-instructions">Setup</a>
+  <h1>🌍 Sustainable Waste Management Assistant Using Generative AI ♻️</h1>
+  
+  <p>
+    An AI-powered smart city sustainability platform that helps users make environmentally responsible waste disposal decisions.
   </p>
+
+<!-- Badges -->
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Groq_AI-1E40AF?style=for-the-badge&logo=ai&logoColor=white" alt="Groq AI" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Chart.js" />
+  <img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet" />
+  <img src="https://img.shields.io/badge/OSM-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white" alt="OpenStreetMap" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License" />
+</p>
 </div>
 
-## 🌟 Introduction
+---
 
-Sustainable Waste Management AI is an innovative platform designed to help individuals and communities make environmentally conscious decisions. By leveraging advanced AI models, the app classifies waste from user inputs and provides actionable, eco-friendly disposal instructions. 
+## 📖 Project Overview
 
-Users can track their sustainability impact over time, find local collection centers via an interactive map, and manage their scan history through a seamless, fully responsive user interface.
+**Sustainable Waste Management Assistant Using Generative AI** is an innovative platform aimed at promoting environmental sustainability. By leveraging the power of Groq's LLaMA 3.3-70B Versatile model, this application intelligently analyzes waste items to provide users with accurate disposal, recycling, and hazard guidance. It integrates a rich, responsive interface with interactive maps and data analytics to empower users towards a greener footprint.
+
+---
+
+## 🚀 Live Demo
+
+- **Frontend (Vercel):** [https://your-vercel-deployment-url.vercel.app](https://your-vercel-deployment-url.vercel.app)
+- **Backend (Render):** [https://your-render-deployment-url.onrender.com](https://your-render-deployment-url.onrender.com)
+
+---
+
+## 📸 Screenshots
+
+| Home Page | Waste Scanner | AI Result |
+| :---: | :---: | :---: |
+| <img src="https://via.placeholder.com/300x200?text=Home+Page" alt="Home Page"> | <img src="https://via.placeholder.com/300x200?text=Waste+Scanner" alt="Scanner"> | <img src="https://via.placeholder.com/300x200?text=AI+Result" alt="AI Result"> |
+
+| Collection Centers Map | Scan History | Analytics Dashboard |
+| :---: | :---: | :---: |
+| <img src="https://via.placeholder.com/300x200?text=Map" alt="Map"> | <img src="https://via.placeholder.com/300x200?text=History" alt="History"> | <img src="https://via.placeholder.com/300x200?text=Dashboard" alt="Dashboard"> |
+
+| Login | Register | Mobile View |
+| :---: | :---: | :---: |
+| <img src="https://via.placeholder.com/300x200?text=Login" alt="Login"> | <img src="https://via.placeholder.com/300x200?text=Register" alt="Register"> | <img src="https://via.placeholder.com/300x200?text=Mobile+View" alt="Mobile"> |
+
+---
 
 ## ✨ Features
 
-- **🔐 Secure Authentication**: Firebase-powered Email/Password Login & Signup.
-- **🤖 AI Waste Classification**: Input waste details and instantly receive AI-generated disposal and recycling instructions.
-- **⚡ Quick Select**: Convenient buttons for common waste items to streamline the scanning process.
-- **📊 Impact Dashboard**: Visualize your recycling habits and environmental impact with beautiful Chart.js analytics.
-- **📜 Scan History**: Track past scans with categorized tags (Recyclable, Hazardous, etc.).
-- **🗺️ Interactive Map**: Locate nearby waste collection and recycling centers using an interactive Leaflet.js map.
-- **📱 Fully Responsive**: A modern, mobile-first UI with Dark/Light theme support that looks great on any device.
-- **🔄 Real-time Data**: Seamless integration with Firebase Firestore for real-time history and dashboard updates.
+- 🧠 **AI Waste Classification:** Identify the correct waste category for any item.
+- 📋 **Disposal Instructions:** Step-by-step guidance on how to safely dispose of waste.
+- ♻️ **Recycling Guidance:** Know what can and cannot be recycled.
+- ⚠️ **Hazard Detection:** Flag hazardous materials like e-waste or chemicals.
+- 🌱 **Eco-Friendly Suggestions:** Recommendations to reuse and reduce waste.
+- 📍 **Nearby Collection Centers:** Interactive map displaying local recycling facilities.
+- 🔐 **Firebase Authentication:** Secure login and registration flows.
+- 🗄️ **Firestore Scan History:** Persist and review past waste scans.
+- 📊 **Analytics Dashboard:** Visualize your waste generation footprint and recycling rates.
+- 📱 **Responsive UI:** Fully optimized for both mobile and desktop screens.
+- 🌓 **Dark & Light Theme:** Beautifully tailored viewing experiences.
+- 🔍 **Search & Filtering:** Easily navigate through collection centers and scan history.
 
-## 🛠 Tech Stack
+---
 
-### Frontend
-- **React.js** (Vite) - Component-based UI
-- **Tailwind CSS** - Utility-first styling and theme management
-- **Chart.js & React-Chartjs-2** - Data visualization
-- **Leaflet & React-Leaflet** - Interactive maps
-- **Lucide React** - Beautiful iconography
+## 🛠️ Tech Stack
 
-### Backend
-- **Python (Flask)** - Lightweight RESTful API server
-- **Groq API** - AI-powered LLM for fast waste classification
+| Category | Technologies Used |
+| :--- | :--- |
+| **Frontend** | React.js, Tailwind CSS, Axios, React Router, Chart.js, Leaflet.js |
+| **Backend** | Flask, Python, Firebase Admin SDK, Groq API (LLaMA 3.3-70B) |
+| **Database** | Firebase Firestore |
+| **Authentication** | Firebase Authentication |
+| **Deployment** | Vercel (Frontend), Render (Backend) |
 
-### Database & Services (Firebase)
-- **Firebase Authentication** - User identity management
-- **Firebase Firestore** - NoSQL database for storing user scan histories
+---
 
-## 🏗 System Architecture
+## 🏗️ Project Architecture
 
-1. **Client (React/Vite)**: The user interacts with the responsive web interface. Auth state is managed via React Context and Firebase Auth.
-2. **Backend (Flask)**: The frontend sends scan requests and fetches data from the Flask API.
-3. **AI Engine**: The Flask backend communicates with the Groq API to analyze waste inputs and generate structured classification data.
-4. **Database (Firestore)**: The backend saves and retrieves user-specific scan records and dashboard analytics from Firebase Firestore.
+```mermaid
+graph TD;
+    A[User] -->|Interacts| B(React Frontend)
+    B -->|API Requests| C(Flask REST API)
+    C <-->|Waste Analysis| D[Groq AI Model]
+    C <-->|Read/Write Data| E[(Firebase Firestore)]
+    E -->|Provides Data| B
+    B -->|Renders| F[Dashboard & History]
+```
 
-## 🚀 Setup Instructions
+---
 
-### Prerequisites
-- Node.js (v16+)
-- Python (3.8+)
-- Firebase Account
-- Groq API Key
+## 📂 Folder Structure
 
-### 1. Clone the repository
+```text
+Sustainable-Waste-Management/
+├── backend/
+│   ├── app.py
+│   ├── firebase_config.py
+│   ├── requirements.txt
+│   ├── routes/
+│   │   ├── analyze_routes.py
+│   │   ├── dashboard_routes.py
+│   │   └── ...
+│   └── services/
+│       ├── ai_service.py
+│       └── firestore_service.py
+└── frontend/
+    ├── index.html
+    ├── package.json
+    ├── tailwind.config.js
+    ├── vite.config.js
+    ├── vercel.json
+    └── src/
+        ├── components/
+        ├── contexts/
+        ├── pages/
+        ├── services/
+        └── assets/
+```
+
+---
+
+## ⚙️ Installation Guide
+
+### 1. Clone Repository
 ```bash
 git clone https://github.com/Dileep0610/Sustainable-Waste-Management.git
 cd Sustainable-Waste-Management
 ```
 
-### 2. Backend Setup (Flask)
+### 2. Backend Setup
 ```bash
 cd backend
 python -m venv venv
-# On Windows
-venv\Scripts\activate
-# On Mac/Linux
-source venv/bin/activate
-
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3. Frontend Setup (React/Vite)
+### 3. Frontend Setup
 ```bash
 cd ../frontend
 npm install
 ```
 
-### 4. Environment Variables
-Create a `.env` file in the `frontend` directory:
-```env
-VITE_FIREBASE_API_KEY=your_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-```
-
-Create a `.env` file in the `backend` directory:
-```env
-GROQ_API_KEY=your_groq_api_key
-```
-
-### 5. Firebase Configuration Setup
-1. Go to the [Firebase Console](https://console.firebase.google.com/).
-2. Create a new project or select an existing one.
-3. Enable **Authentication** (Email/Password provider).
-4. Enable **Firestore Database**.
-5. Generate a new Private Key from `Project Settings > Service Accounts` and save it as `backend/serviceAccountKey.json`.
-6. Copy the web app configuration into the frontend `.env` file.
-
-### 6. Run Locally
-**Start the Backend:**
+### 4. Run the Application
+**Backend:**
 ```bash
 cd backend
-python app.py
+flask run --host=0.0.0.0 --port=5000
 ```
-**Start the Frontend:**
+**Frontend:**
 ```bash
 cd frontend
 npm run dev
 ```
-Navigate to `http://localhost:5173` in your browser.
 
-## 📸 Screenshots
+---
 
-*(Placeholders for future screenshots)*
-- `assets/screenshots/dashboard.png`
-- `assets/screenshots/scanner.png`
-- `assets/screenshots/map.png`
+## 🔐 Environment Variables
+
+<details>
+<summary><b>Frontend (.env)</b></summary>
+
+| Variable | Description |
+| :--- | :--- |
+| `VITE_API_URL` | Your Flask Backend URL |
+| `VITE_FIREBASE_API_KEY` | Firebase API Key |
+| `VITE_FIREBASE_AUTH_DOMAIN` | Firebase Auth Domain |
+| `VITE_FIREBASE_PROJECT_ID` | Firebase Project ID |
+| `VITE_FIREBASE_STORAGE_BUCKET` | Firebase Storage Bucket |
+| `VITE_FIREBASE_MESSAGING_SENDER_ID`| Firebase Messaging Sender ID |
+| `VITE_FIREBASE_APP_ID` | Firebase App ID |
+| `VITE_FIREBASE_MEASUREMENT_ID` | Firebase Measurement ID |
+
+</details>
+
+<details>
+<summary><b>Backend (.env)</b></summary>
+
+| Variable | Description |
+| :--- | :--- |
+| `GROQ_API_KEY` | API key for the Groq AI service |
+| `FIREBASE_CREDENTIALS` | Stringified Firebase Service Account JSON (Render) |
+| `FLASK_APP` | Entry point for the Flask application |
+| `FLASK_ENV` | Development or Production |
+| `CORS_ORIGIN` | Allowed origin for CORS (e.g., Vercel URL) |
+
+</details>
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `POST` | `/api/analyze-waste` | Processes waste item via Groq AI |
+| `POST` | `/api/save-history` | Saves the scan result to Firestore |
+| `GET`  | `/api/get-history` | Retrieves a user's scan history |
+| `GET`  | `/api/get-centers` | Returns nearby collection centers |
+| `GET`  | `/api/dashboard-data`| Aggregates user metrics for the dashboard |
+
+---
+
+## 🔄 Workflow
+
+```mermaid
+graph LR;
+    A[User Login] --> B[Waste Scan];
+    B --> C[Groq AI Analysis];
+    C --> D[Firestore Storage];
+    D --> E[History];
+    E --> F[Dashboard Analytics];
+    B --> G[Collection Centers];
+```
+
+---
 
 ## 🔮 Future Enhancements
-- Social Login Integration (Google, GitHub).
-- Image-based AI scanning (upload photos of waste).
-- Community leaderboards and gamification.
-- Mobile application using React Native.
+
+- 📷 **Image-based waste detection:** Upload a photo for instant classification.
+- 📲 **QR code scanning:** Quickly identify products and packaging.
+- 🗺️ **GPS-based routing:** Directions to the nearest recycling centers.
+- 🌍 **Carbon footprint calculator:** Track CO2 saved by recycling.
+- 🤖 **AI Chatbot:** Real-time conversational assistant for sustainability.
+- 🎙️ **Voice Assistant:** Hands-free waste queries.
+- 🎮 **Gamification:** Earn points and badges for eco-friendly habits.
+- 🌐 **Multi-language support:** Accessibility across different regions.
+- 🔔 **Push Notifications:** Reminders for garbage collection days.
+- 👑 **Admin Dashboard:** Monitor platform usage and data.
+
+---
+
+## 🚧 Challenges Faced
+
+During development, several complex engineering challenges were overcome:
+- **Prompt Engineering:** Fine-tuning the Groq LLaMA 3.3 model to ensure responses matched a strict, structured JSON schema.
+- **Firebase Authentication & Firestore:** Seamlessly linking authenticated users to their scan histories and dashboard data securely.
+- **Deployment Issues:** Managing Python environments on Render and SPA routing on Vercel.
+- **CORS Configuration:** Ensuring secure, uninterrupted communication between the React frontend and Flask backend.
+- **Environment Variables:** Safely injecting and managing secrets across multiple deployment platforms.
+- **Responsive UI Design:** Ensuring maps and charts scaled elegantly from mobile viewports up to large desktop monitors.
+
+---
+
+## 📚 Learning Outcomes
+
+Through this capstone project, I acquired comprehensive experience in:
+- Building end-to-end full-stack applications integrating modern AI models (Groq/LLaMA).
+- Designing RESTful APIs with Flask and efficiently handling asynchronous tasks in React.
+- Implementing robust data visualization architectures using Chart.js and interactive geospatial data with Leaflet.js.
+- Mastering environment configuration and CI/CD deployment pipelines on Vercel and Render.
+- Enhancing UI/UX with Tailwind CSS, supporting theming, and responsive design paradigms.
+
+---
+
+## 🙌 Acknowledgements
+
+Special thanks to the phenomenal tools and platforms that made this possible:
+- [Groq](https://groq.com/) for lightning-fast AI inference
+- [Firebase](https://firebase.google.com/) for backend-as-a-service excellence
+- [React](https://reactjs.org/) & [Flask](https://flask.palletsprojects.com/)
+- [OpenStreetMap](https://www.openstreetmap.org/) & [Leaflet.js](https://leafletjs.com/)
+- [Chart.js](https://www.chartjs.org/)
+
+---
 
 ## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
 
 ## 👨‍💻 Author
-**Dileep** - [GitHub Profile](https://github.com/Dileep0610)
+
+**Kottakota Dileep Kumar**  
+*AI & Full Stack Developer*  
+
+🔗 **GitHub:** [https://github.com/Dileep0610](https://github.com/Dileep0610)  
+💼 **LinkedIn:** [Your LinkedIn Profile URL](https://linkedin.com/in/your-profile)  
+📧 **Email:** [Your Email Address](mailto:your.email@example.com)
+
+---
+
+<div align="center">
+  <b>⭐ If you found this project useful, please give it a Star on GitHub! ⭐</b>
+</div>
