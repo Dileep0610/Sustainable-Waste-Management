@@ -33,7 +33,7 @@
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel):** [https://sustainable-waste-management-5ci4hd48x.vercel.app/](https://sustainable-waste-management-5ci4hd48x.vercel.app/)
+- **Frontend (Vercel):** [https://sustainable-waste-management-nu.vercel.app/](https://sustainable-waste-management-nu.vercel.app/)
 - **Backend (Render):** [https://sustainable-waste-management.onrender.com](https://sustainable-waste-management.onrender.com)
 
 
