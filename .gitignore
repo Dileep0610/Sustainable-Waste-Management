@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Firebase / Secret keys
+serviceAccountKey.json
+firebase-debug.log
+firebase-debug.*.log
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
