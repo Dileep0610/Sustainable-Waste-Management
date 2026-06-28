@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../services/api';
 import { Map, Search, MapPin, Loader2, AlertCircle, Phone, Clock } from 'lucide-react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
@@ -66,7 +66,7 @@ const CollectionCenters = () => {
       const query = new URLSearchParams();
       if (wasteType) query.append('waste_type', wasteType);
       
-      const response = await axios.get(`http://127.0.0.1:5000/api/get-centers?${query.toString()}`);
+      const response = await api.get(`/get-centers?${query.toString()}`);
       if (response.data.success) {
         setCenters(response.data.data.centers);
       } else {

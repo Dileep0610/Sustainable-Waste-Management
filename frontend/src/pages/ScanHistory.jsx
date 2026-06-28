@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../services/api';
 import { History, Calendar, Search, Filter, Loader2, AlertCircle } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -19,7 +19,7 @@ const ScanHistory = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await axios.get(`http://127.0.0.1:5000/api/get-history?userId=${currentUser.uid}`);
+      const response = await api.get(`/get-history?userId=${currentUser.uid}`);
       if (response.data.success) {
         setHistory(response.data.data.history || []);
       } else {

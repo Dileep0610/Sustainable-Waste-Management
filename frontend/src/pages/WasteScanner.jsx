@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../services/api';
 import { Search, Loader2, AlertCircle, RefreshCw } from 'lucide-react';
 import ResultCard from '../components/scanner/ResultCard';
 import { useAuth } from '../contexts/AuthContext';
@@ -43,7 +43,7 @@ const WasteScanner = () => {
     setLoadingMessageIndex(0);
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/api/analyze-waste', {
+      const response = await api.post('/analyze-waste', {
         item: item.trim()
       });
       
@@ -53,7 +53,7 @@ const WasteScanner = () => {
         
         // Save history in the background
         try {
-          await axios.post('http://127.0.0.1:5000/api/save-history', {
+          await api.post('/save-history', {
             userId: currentUser.uid,
             item: analyzeResult.item,
             category: analyzeResult.category,

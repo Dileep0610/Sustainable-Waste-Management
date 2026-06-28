@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../services/api';
 import { TrendingUp, Award, AlertTriangle, Activity, Loader2, AlertCircle } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
@@ -44,7 +44,7 @@ const AnalyticsDashboard = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await axios.get(`http://127.0.0.1:5000/api/dashboard-data?userId=${currentUser.uid}`);
+      const response = await api.get(`/dashboard-data?userId=${currentUser.uid}`);
       if (response.data.success) {
         setData(response.data.data);
       } else {
