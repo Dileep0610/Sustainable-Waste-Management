@@ -5,3 +5,4 @@ groq==0.11.0
 flask
 gunicorn
 flask-cors
+firebase-admin
