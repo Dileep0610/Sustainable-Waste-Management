@@ -33,24 +33,10 @@
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel):** [https://your-vercel-deployment-url.vercel.app](https://your-vercel-deployment-url.vercel.app)
-- **Backend (Render):** [https://your-render-deployment-url.onrender.com](https://your-render-deployment-url.onrender.com)
+- **Frontend (Vercel):** [https://sustainable-waste-management-5ci4hd48x.vercel.app/](https://sustainable-waste-management-5ci4hd48x.vercel.app/)
+- **Backend (Render):** [https://sustainable-waste-management.onrender.com](https://sustainable-waste-management.onrender.com)
 
----
 
-## 📸 Screenshots
-
-| Home Page | Waste Scanner | AI Result |
-| :---: | :---: | :---: |
-| <img src="https://via.placeholder.com/300x200?text=Home+Page" alt="Home Page"> | <img src="https://via.placeholder.com/300x200?text=Waste+Scanner" alt="Scanner"> | <img src="https://via.placeholder.com/300x200?text=AI+Result" alt="AI Result"> |
-
-| Collection Centers Map | Scan History | Analytics Dashboard |
-| :---: | :---: | :---: |
-| <img src="https://via.placeholder.com/300x200?text=Map" alt="Map"> | <img src="https://via.placeholder.com/300x200?text=History" alt="History"> | <img src="https://via.placeholder.com/300x200?text=Dashboard" alt="Dashboard"> |
-
-| Login | Register | Mobile View |
-| :---: | :---: | :---: |
-| <img src="https://via.placeholder.com/300x200?text=Login" alt="Login"> | <img src="https://via.placeholder.com/300x200?text=Register" alt="Register"> | <img src="https://via.placeholder.com/300x200?text=Mobile+View" alt="Mobile"> |
 
 ---
 
@@ -280,12 +266,12 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-**Kottakota Dileep Kumar**  
+**Kothakota Dileep Kumar**  
 *AI & Full Stack Developer*  
 
 🔗 **GitHub:** [https://github.com/Dileep0610](https://github.com/Dileep0610)  
-💼 **LinkedIn:** [Your LinkedIn Profile URL](https://linkedin.com/in/your-profile)  
-📧 **Email:** [Your Email Address](mailto:your.email@example.com)
+💼 **LinkedIn:** [https://www.linkedin.com/in/dileep0610/](https://www.linkedin.com/in/dileep0610/)  
+📧 **Email:** [kottakotadileepkumar5@gmail.com](mailto:kottakotadileepkumar5@gmail.com)
 
 ---
 
